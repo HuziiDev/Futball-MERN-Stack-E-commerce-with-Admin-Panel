@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+  @apply block;
+}
+* {
+  font-family: Outfit;
+}
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    @apply bg-black text-white;
+  }
+}
+
+/* Change the default color of the dots */
+.swiper-pagination-bullet {
+  background-color: #414141; /* Default color */
+  opacity: 1; /* Make dots fully visible */
+}
+
+/* Change the color of the active dot */
+.swiper-pagination-bullet-active {
+  background-color: gray; /* Active color */
+}
+.swiper-button-prev, .swiper-button-next {
+  display: none !important;
+}
