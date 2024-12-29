@@ -45,7 +45,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           className="flex flex-col items-center gap-1"
-          
+          to="https://futball-admin.vercel.app"
           target="_blank"
         >
           <p className="px-2 rounded-md text-gray-700 border bg-slate-300 ">
