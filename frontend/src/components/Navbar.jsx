@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link to="/">
-        <h1 className="text-3xl font-semibold">Futball</h1>
+        <h1 className="text-3xl font-semibold text-zinc-900">Fan<span className="text-green-300">Fit</span> Jerseys</h1>
       </Link>
       <ul className="hidden sm:flex gap-5 text-gray-700 text-lg">
         <NavLink className="flex flex-col items-center gap-1" to="/">

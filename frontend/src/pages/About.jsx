@@ -16,7 +16,7 @@ const About = () => {
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p className="">
-            {`Futball was born out of a passion for innovation and a desire to
+            {`FanFit Jerseys was born out of a passion for innovation and a desire to
             revolutionize the way people shop online. Our journey began with a
             simple idea: to provide a platform where customers can easily
             discover, explore, and purchase a wide range of products from the
@@ -31,7 +31,7 @@ const About = () => {
           </p>
           <strong className="text-gray-800">Our Mission</strong>
           <p>
-            {`Our mission at Futball is to empower customers with choice,
+            {`Our mission at FanFit Jerseys is to empower customers with choice,
             convenience, and confidence. We're dedicated to providing a seamless
             shopping experience that exceeds expectations, from browsing and
             ordering to delivery and beyond.`}
