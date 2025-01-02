@@ -15,12 +15,14 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Verify } from "./pages/Verify";
 import { ForgotPassword } from "./pages/ForgotPassword";
+import ChatbotWidget from "./components/ChatbotWidget";
 
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw]">
       <ToastContainer />
       <Navbar />
+      <ChatbotWidget/>
       <SearchBar />
       <Routes>
         <Route path="/" element={<Home />} />
