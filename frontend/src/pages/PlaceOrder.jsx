@@ -38,13 +38,35 @@ const PlaceOrder = () => {
     }
   }, []);
 
+ 
+
   const onChangeHandler = (e) => {
     const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
+  
+    if (name === "phone") {
+    
+      const sanitizedValue = value.replace(/\D/g, "");
+  
+      
+      if (sanitizedValue.length > 10) {
+        toast.error("Phone number should be of 10 digits");
+        return; 
+      }
+  
+      
+      setFormData((prevState) => ({
+        ...prevState,
+        [name]: sanitizedValue,
+      }));
+    } else {
+    
+      setFormData((prevState) => ({
+        ...prevState,
+        [name]: value,
+      }));
+    }
   };
+  
 
   const initPay = (order) => {
     const options = {

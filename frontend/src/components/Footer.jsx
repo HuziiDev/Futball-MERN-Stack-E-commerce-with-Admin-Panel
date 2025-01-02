@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="">
       <div className="fle flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         <div>
-          <h1 className="text-3xl font-semibold">FanFit Jerseys</h1>
+        <h1 className="text-3xl font-semibold text-zinc-900">Fan<span className="text-green-300">Fit</span> Jerseys</h1>
           <p className="w-full md:w-2/3 text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
             eaque reprehenderit vero illum placeat explicabo modi, alias sint
